@@ -28,7 +28,7 @@ namespace Onion.WebApi.Controllers
         public async Task<IActionResult> GetAllCategoryAsync()
         {
             return Ok(await _getCategoryQueryHandler.Handle());
-        }
+        } 
         [HttpPost]
         public async Task<IActionResult> CreateCategory(CreateCategoryCommand command)
         {
