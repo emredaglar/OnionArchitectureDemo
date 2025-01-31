@@ -14,7 +14,7 @@ namespace Onion.WebApi.Controllers
         private readonly RemoveCategoryCommandHandler _removeCommandHandler;
         private readonly GetCategoryByIdQueryHandler _getCategoryByIdQueryHandler;
         private readonly GetCategoryQueryHandler _getCategoryQueryHandler;
-              
+                
         public CategoryController(CreateCategoryCommandHandler createCommandHandler, UpdateCategoryCommandHandler updateCommandHandler, RemoveCategoryCommandHandler removeCommandHandler, GetCategoryByIdQueryHandler getCategoryByIdQueryHandler, GetCategoryQueryHandler getCategoryQueryHandler)
         {
             _createCommandHandler = createCommandHandler;
